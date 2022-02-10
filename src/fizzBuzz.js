@@ -1,4 +1,4 @@
-const fizzBuzz = function(number) {
+const fizzBuzz = (number) => {
   //if the value is divisible by 5 and 3 (by 15) FizzBuzz is printed
   if (number % 15 == 0) {
     return 'FizzBuzz';

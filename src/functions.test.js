@@ -33,12 +33,12 @@ Testing the return value of a given integer param  'number'
 test('1 is returned when number = 1', () => {
   expect(contains(1, 3)).toEqual(false);
   expect(contains(1, 5)).toEqual(false);
-  expect(fizzBuzz(1)).toEqual(1); // 1 not divisible by 3 or 5 or 15 and don't contain 3 or 5;
+  expect(fizzBuzz2(1)).toEqual(1); // 1 not divisible by 3 or 5 or 15 and don't contain 3 or 5;
 
 });
 
 test('Fizz is returned when number = 9', () => {
-  expect(fizzBuzz(9)).toEqual('Fizz'); // 9 divisible by 3
+  expect(fizzBuzz2(9)).toEqual('Fizz'); // 9 divisible by 3
 });
 test('Fizz is returned when number = 38 ', () => {
   expect(contains(38, 3)).toEqual(true);
@@ -46,7 +46,7 @@ test('Fizz is returned when number = 38 ', () => {
 });
 
 test('Buzz is returned when number = 25', () => {
-  expect(fizzBuzz(25)).toEqual('Buzz'); // 25 divisible by 5
+  expect(fizzBuzz2(25)).toEqual('Buzz'); // 25 divisible by 5
 });
 
 test('Buzz is returned when number = 58', () => {

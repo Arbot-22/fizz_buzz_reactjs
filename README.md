@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/321c565662c64817a9ff6ebddd4d719d)](https://app.codacy.com/gh/Arbot-22/fizz_buzz_reactjs?utm_source=github.com&utm_medium=referral&utm_content=Arbot-22/fizz_buzz_reactjs&utm_campaign=Badge_Grade_Settings)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -6,7 +6,7 @@ const contains = function (number, digit) {
         number = Math.floor(number / 10); // cut off the last digit
     }
     return false;
-}
+};
 
 export default contains;
 

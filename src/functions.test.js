@@ -7,7 +7,7 @@ Tests for the function fizzBuzz() :
 Testing the return value of a given integer param  'number'
 */
 test('1 is returned when number = 1', () => {
-  expect(fizzBuzz2(1)).toEqual(1); // 1 not divisible by 3 or 5 or 15
+  expect(fizzBuzz(1)).toEqual(1); // 1 not divisible by 3 or 5 or 15
 });
 
 test('Fizz is returned when number = 9', () => {
@@ -22,13 +22,19 @@ test('FizzBuzz is returned when number = 30', () => {
   expect(fizzBuzz(30)).toEqual('FizzBuzz'); // 30 divisible by 15
 });
 
+
 /* 
 Tests for the function fizzBuzz2() :
-Testing the return value of a given integer param  'number'
+Testing the return value of a given integer param  'number' 
+    - Using the function contains which return true is the param 'number' contains 
+      a param 'digit'  
 */
 
 test('1 is returned when number = 1', () => {
+  expect(contains(1, 3)).toEqual(false);
+  expect(contains(1, 5)).toEqual(false);
   expect(fizzBuzz(1)).toEqual(1); // 1 not divisible by 3 or 5 or 15 and don't contain 3 or 5;
+
 });
 
 test('Fizz is returned when number = 9', () => {
@@ -44,6 +50,7 @@ test('Buzz is returned when number = 25', () => {
 });
 
 test('Buzz is returned when number = 58', () => {
+  expect(contains(58, 3)).toEqual(false);
   expect(contains(58, 5)).toEqual(true);
   expect(fizzBuzz2(58)).toEqual('Buzz'); // not divisible by 5 but contains 5 
 });

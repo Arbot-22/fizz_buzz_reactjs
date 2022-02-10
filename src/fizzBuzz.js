@@ -1,6 +1,6 @@
 const fizzBuzz = function(number) {
   //if the value is divisible by 5 and 3 (by 15) FizzBuzz is printed
-  if (number % 3 == 0 && number % 5 == 0) {
+  if (number % 15 == 0) {
     return 'FizzBuzz';
     //if the value is divisible by 3 Fizz is printed
   } else if (number % 3 == 0) {

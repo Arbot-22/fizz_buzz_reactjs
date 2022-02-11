@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bc4bcb339054993bc0702f10169419c)](https://www.codacy.com/gh/Arbot-22/fizz_buzz_reactjs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arbot-22/fizz_buzz_reactjs&amp;utm_campaign=Badge_Grade)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
